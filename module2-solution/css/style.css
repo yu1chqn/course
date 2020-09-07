@@ -1,4 +1,4 @@
-/*/********** Base styles **********/
+/********** Base styles **********/
 body {
  	background-color: #8B281F;
  	color: #eee8aa;
@@ -9,45 +9,44 @@ h1 {
 	text-align: center;
 }
 
- article {
- 	width: 100%;
- 	float: left;
- }
+article {
+	width: 100%;
+	float: left;
+}
 
- img {
- 	max-width: 100%;
- }
+img {
+	max-width: 100%;
+}
 
- div.pic {
- 	text-align: center;
- }
+div.pic {
+	text-align: center;
+}
 
- div.box {
- 	box-sizing: border-box;
- 	background-color: #ffa07a;
- 	position: relative;
- 	margin: 10px;
- 	border: 1px solid black;
- 	padding: 40px 20px 10px;
- 	/*height: 400px;*/
- }
+div.box {
+	box-sizing: border-box;
+	background-color: #ffa07a;
+	position: relative;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 40px 20px 10px;
+}
 
- span.title-box {
- 	position: absolute;
- 	top: 0px;
- 	right: 0px;
- 	width: 150px;
- 	padding: 10px;
- 	border-bottom: 1px solid black;
- 	border-left: 1px solid black;
- 	text-align: center;
- 	font-weight: bold;
+span.title-box {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
 
- }
-
- p{
- 	color: black;
- }
+p {
+	height: 70px;
+	color: black;
+}
 
 #p1 {
  	background-color: #dc143c;
@@ -74,4 +73,3 @@ h1 {
 		width: 50%;
 	}
 }
-*/
