@@ -1,0 +1,51 @@
+body {
+	--pink-dr: #be1558;
+	--pink-md: #e75874;
+	--pink-li: #fbcbc9;
+	--dark: #322514;
+
+	background-color: var(--pink-li);
+	color: var(--dark);
+	font-family: Helvetica, sans-serif;
+}
+
+h1 {
+	text-shadow: 1px 2px 4px #808080;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+article {
+	background-color: var(--pink-dr);
+	padding-top: 5px;
+	margin-top: 15px;
+	font-style: italic;
+}
+
+h2 {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#header-nav {
+	background-color: var(--dark);
+	border-radius: 0;
+	border: 0;
+}
+#nav-list li a {
+	color: #fff1e1;
+	font-size: 1.2em;
+}
+#nav-list li a:hover {
+	background-color: var(--pink-md);
+
+}
+.navbar-brand span {
+	color: #fff1e1;
+}
+
